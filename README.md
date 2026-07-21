@@ -1,0 +1,51 @@
+# Introduction to Web Programming — Companion Repository
+
+Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introduction to Web Programming*. Repository bersifat **berkelanjutan**: setiap chapter baru **menambah** folder chapter baru pada repository yang sama, bukan membuat repository terpisah.
+
+## Daftar Chapter
+
+| Chapter | Topik | Status |
+|---|---|---|
+| [`chapter-1/`](./chapter-1) | Introduction to Web Development | ✅ Selesai |
+| `chapter-2/` | *(menyusul)* | ⏳ Belum dibuat |
+
+## Cara Menggunakan Repository Ini
+
+```bash
+git clone https://github.com/harryrosianto/Chapter-1-IWP.git
+cd Chapter-1-IWP
+```
+
+Setiap folder chapter memiliki `README.md` sendiri berisi learning objectives, instruksi menjalankan project, dan assignment. Masuk ke folder chapter yang sedang dipelajari, lalu ikuti `README.md` di dalamnya.
+
+## Dokumen Pendukung
+
+- [`GIT-GUIDE.md`](./GIT-GUIDE.md) — perintah Git dan best practice yang dipakai sepanjang course ini.
+
+## Requirements Umum
+
+| Tools | Keterangan |
+|---|---|
+| [Visual Studio Code](https://code.visualstudio.com) | Code editor |
+| [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) | Ekstensi VS Code untuk menjalankan HTML secara lokal |
+| [Git](https://git-scm.com) | Version control |
+| Browser modern | Google Chrome / Microsoft Edge / Firefox |
+
+## Struktur Repository (akan bertambah setiap chapter)
+
+```
+Chapter-1-IWP/
+├── README.md
+├── GIT-GUIDE.md
+├── .gitignore
+├── .vscode/
+│   └── extensions.json
+└── chapter-1/
+    ├── README.md
+    ├── starter-code/
+    ├── final-code/
+    ├── praktikum/
+    ├── challenge/
+    ├── mini-project/
+    └── assets/
+```
