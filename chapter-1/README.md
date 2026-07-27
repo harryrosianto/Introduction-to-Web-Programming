@@ -45,7 +45,7 @@ chapter-1/
 │   ├── REQUIREMENTS.md
 │   └── starter/index.html  # Starter mini project "Kartu Perkenalan Digital"
 └── assets/
-    └── screenshot-placeholder.png
+    └── screenshot-hasil-akhir.png
 ```
 
 ## Penjelasan Setiap File
@@ -60,13 +60,13 @@ chapter-1/
 | `challenge/starter/profil.html` | Skeleton HTML kosong untuk challenge. |
 | `mini-project/REQUIREMENTS.md` | Checklist requirements mini project "Kartu Perkenalan Digital Sederhana". |
 | `mini-project/starter/index.html` | Starter code mini project, berisi TODO. |
-| `assets/screenshot-placeholder.png` | Placeholder screenshot hasil tampilan website (ganti dengan screenshot asli). |
+| `assets/screenshot-hasil-akhir.png` | Screenshot asli hasil render `final-code/index.html`, diambil otomatis menggunakan browser headless. |
 
 ## Screenshot
 
-![Screenshot hasil website chapter 1](./assets/screenshot-placeholder.png)
+![Screenshot hasil website chapter 1](./assets/screenshot-hasil-akhir.png)
 
-> Placeholder di atas perlu diganti dengan screenshot asli hasil `final-code/index.html` yang dijalankan melalui Live Server. Simpan screenshot ke `assets/` dengan nama file yang sama, atau ubah nama file dan sesuaikan link di atas.
+> Screenshot di atas adalah hasil render asli dari `final-code/index.html`. Karena chapter ini belum menggunakan CSS, tampilannya memang masih polos mengikuti gaya default browser — hal ini sudah sesuai dengan cakupan materi chapter ini.
 
 ## Assignment
 
@@ -84,7 +84,7 @@ Kerjakan seluruhnya menggunakan starter code yang tersedia pada masing-masing fo
   - [ ] TODO: Isi `<h1>` dengan nama lengkap.
   - [ ] TODO: Isi 3 `<p>` (asal kampus/kota, hobi, alasan belajar web development).
 - [ ] **Git** — Ikuti urutan commit pada bagian [Git Commit](#git-commit-history) di bawah menggunakan project masing-masing.
-- [ ] Ambil screenshot hasil akhir, ganti `assets/screenshot-placeholder.png`.
+- [x] Screenshot hasil akhir sudah tersedia di `assets/screenshot-hasil-akhir.png` (dapat diperbarui ulang jika starter code dimodifikasi).
 
 ---
 
