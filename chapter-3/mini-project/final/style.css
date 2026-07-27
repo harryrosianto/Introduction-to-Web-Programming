@@ -1,0 +1,146 @@
+/* ==========================================================
+   MINI PROJECT CHAPTER 3 — FINAL CSS
+   Website Profil Pribadi - Versi Bergaya (Styled)
+   ========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    color: #1E293B;
+}
+
+/* ========== HEADER & NAVIGASI ========== */
+header {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 24px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin: 0 0 12px 0;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========== CARD BIODATA ========== */
+.card {
+    max-width: 500px;
+    padding: 24px;
+    margin: 24px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.foto-profil {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #2563EB;
+    margin: 0 auto 16px auto;
+}
+
+main section:not(.card) {
+    max-width: 500px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+/* ========== TABEL ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+
+th, td {
+    border: 1px solid #E2E8F0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #EFF6FF;
+}
+
+/* ========== SKILL (DESCRIPTION LIST) ========== */
+dt {
+    font-weight: bold;
+    color: #2563EB;
+    margin-top: 8px;
+}
+
+/* ========== FORM KONTAK ========== */
+fieldset {
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+}
+
+input[type="reset"] {
+    background-color: #E2E8F0;
+    color: #1E293B;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    margin-top: 24px;
+}

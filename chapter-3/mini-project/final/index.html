@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website profil pribadi mahasiswa - Chapter 3 CSS Fundamentals">
+    <title>Profil Pribadi - Harry Rosianto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Harry Rosianto</h1>
+        <nav>
+            <a href="#biodata">Biodata</a> |
+            <a href="#pendidikan">Riwayat Pendidikan</a> |
+            <a href="#hobi">Hobi</a> |
+            <a href="#skill">Skill</a> |
+            <a href="#jadwal">Jadwal Kuliah</a> |
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biodata" class="card">
+            <h2>Biodata</h2>
+            <img src="assets/foto-placeholder.jpg" alt="Foto profil Harry Rosianto" class="foto-profil">
+            <p>Merupakan <strong>dosen dan pengembang materi ajar Web Programming</strong> yang tertarik pada bidang keberlanjutan (sustainability) dan pengembangan web.</p>
+            <ul>
+                <li>Domisili: Depok, Jawa Barat</li>
+                <li>Bidang: Web Programming, Sustainability Reporting</li>
+                <li>Afiliasi: CEP-CCIT Fakultas Teknik UI</li>
+            </ul>
+        </section>
+
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jenjang</th>
+                        <th>Institusi</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S1</td>
+                        <td>Universitas Indonesia</td>
+                        <td>2016 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td>S2</td>
+                        <td>Universitas Indonesia</td>
+                        <td>2021 - 2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="hobi">
+            <h2>Hobi</h2>
+            <ul>
+                <li>Bermain gitar</li>
+                <li>Menulis di Medium</li>
+                <li>Fotografi</li>
+                <li>Ilustrasi digital</li>
+            </ul>
+        </section>
+
+        <section id="skill">
+            <h2>Skill</h2>
+            <dl>
+                <dt>HTML &amp; CSS</dt>
+                <dd>Menyusun struktur dan tampilan halaman web.</dd>
+                <dt>Kotlin (Android)</dt>
+                <dd>Mengembangkan aplikasi mobile dasar.</dd>
+                <dt>Git &amp; GitHub</dt>
+                <dd>Mengelola riwayat perubahan kode secara terstruktur.</dd>
+            </dl>
+        </section>
+
+        <section id="jadwal">
+            <h2>Jadwal Kuliah</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>08.00 - 10.00</th>
+                        <th>10.00 - 12.00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td colspan="2">Praktikum Web Programming</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Selasa</td>
+                        <td>Basis Data</td>
+                        <td>Struktur Data</td>
+                    </tr>
+                    <tr>
+                        <td>Jaringan Komputer</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Jadwal dapat berubah sewaktu-waktu</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="kontak">
+            <h2>Form Kontak</h2>
+            <form action="/submit" method="POST">
+                <fieldset>
+                    <legend>Kirim Pesan</legend>
+
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" cols="30"></textarea><br>
+
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Harry Rosianto. Dipercantik menggunakan CSS sebagai bagian dari Chapter 3.</p>
+    </footer>
+</body>
+</html>
