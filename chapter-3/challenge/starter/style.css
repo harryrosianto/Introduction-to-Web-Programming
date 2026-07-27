@@ -1,0 +1,20 @@
+.card {
+    max-width: 400px;
+    padding: 24px;
+    margin: 24px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* TODO: tambahkan efek hover pada .card (box-shadow lebih tebal) */
+
+/* TODO: buat class .badge (pill shape) untuk elemen skill */
+
+/* TODO: gunakan properti display agar skill tersusun sejajar horizontal */
+
+/* TODO: eksperimen 3 kombinasi warna header (HEX, RGB, HSL) */
+header {
+
+}
