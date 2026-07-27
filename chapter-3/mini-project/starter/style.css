@@ -1,0 +1,62 @@
+/* ==========================================================
+   MINI PROJECT CHAPTER 3 — STARTER CSS
+   Lengkapi setiap bagian TODO di bawah ini.
+   Jalankan Live Server setelah setiap perubahan untuk melihat hasilnya.
+   ========================================================== */
+
+/* TODO: reset dasar (opsional) - box-sizing agar ukuran elemen lebih intuitif */
+
+
+/* ========== HEADER & NAVIGASI ========== */
+/* TODO: beri header warna latar gelap, teks putih, padding, dan rata tengah */
+header {
+
+}
+
+/* TODO: atur tautan navigasi: warna putih, tanpa garis bawah, beri jarak antar tautan */
+nav a {
+
+}
+
+/* TODO: tambahkan efek hover pada tautan navigasi */
+
+
+/* ========== CARD BIODATA ========== */
+/* TODO: buat class .card menggunakan Box Model, border, border-radius, dan box-shadow */
+.card {
+
+}
+
+/* TODO: style foto profil (class "foto-profil") agar berbentuk lingkaran */
+.foto-profil {
+
+}
+
+
+/* ========== TABEL ========== */
+/* TODO: atur table (width, border-collapse) dan th/td (border, padding) */
+table {
+
+}
+
+th, td {
+
+}
+
+/* TODO: beri warna latar berbeda pada th agar terlihat sebagai judul kolom */
+
+
+/* ========== FORM KONTAK ========== */
+/* TODO: atur input dan textarea (width, padding, border, border-radius) */
+input, textarea {
+
+}
+
+/* TODO: beri style khusus pada tombol submit (warna latar, warna teks, cursor) */
+
+
+/* ========== FOOTER ========== */
+/* TODO: beri footer warna latar senada dengan header */
+footer {
+
+}
