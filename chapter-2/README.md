@@ -59,7 +59,7 @@ chapter-2/
 │       ├── index.html          # Final Code — sudah lengkap
 │       └── assets/foto-placeholder.jpg
 └── assets/
-    └── screenshot-placeholder.png
+    └── screenshot-hasil-akhir.png
 ```
 
 ## Penjelasan Setiap File
@@ -73,13 +73,13 @@ chapter-2/
 | `challenge/starter/galeri.html` | Starter skeleton untuk challenge mandiri (galeri gambar + form + navigasi). Solusi tidak disediakan. |
 | `mini-project/starter/index.html` | Starter Code — kerangka Website Profil Pribadi dengan TODO pada setiap bagian. |
 | `mini-project/final/index.html` | Final Code — Website Profil Pribadi lengkap sesuai seluruh requirements chapter ini. |
-| `assets/screenshot-placeholder.png` | Placeholder screenshot hasil tampilan mini project (ganti dengan screenshot asli). |
+| `assets/screenshot-hasil-akhir.png` | Screenshot asli hasil render `mini-project/final/index.html`, diambil otomatis menggunakan browser headless. |
 
 ## Screenshot
 
-![Screenshot Website Profil Pribadi](./assets/screenshot-placeholder.png)
+![Screenshot Website Profil Pribadi](./assets/screenshot-hasil-akhir.png)
 
-> Placeholder di atas perlu diganti dengan screenshot asli hasil `mini-project/final/index.html` yang dijalankan melalui Live Server.
+> Screenshot di atas adalah hasil render asli dari `mini-project/final/index.html`. Karena chapter ini belum menggunakan CSS, tampilannya memang masih polos mengikuti gaya default browser — hal ini sudah sesuai dengan cakupan materi chapter ini.
 
 ## Assignment
 
@@ -96,7 +96,7 @@ chapter-2/
   - [ ] TODO: Form Kontak (`<label>` pada setiap input)
   - [ ] TODO: Footer
   - [ ] TODO: Validasi HTML melalui W3C Validator hingga bebas error
-- [ ] Ambil screenshot hasil akhir, ganti `assets/screenshot-placeholder.png`.
+- [x] Screenshot hasil akhir sudah tersedia di `assets/screenshot-hasil-akhir.png` (dapat diperbarui ulang jika starter code dimodifikasi).
 - [ ] Ikuti urutan commit pada bagian [Git Commit History](#git-commit-history) di bawah.
 
 ---
