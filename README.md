@@ -7,7 +7,8 @@ Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introdu
 | Chapter | Topik | Status |
 |---|---|---|
 | [`chapter-1/`](./chapter-1) | Introduction to Web Development | ✅ Selesai |
-| `chapter-2/` | *(menyusul)* | ⏳ Belum dibuat |
+| [`chapter-2/`](./chapter-2) | HTML Fundamentals | ✅ Selesai |
+| `chapter-3/` | *(menyusul)* | ⏳ Belum dibuat |
 
 ## Cara Menggunakan Repository Ini
 
@@ -40,12 +41,24 @@ Chapter-1-IWP/
 ├── .gitignore
 ├── .vscode/
 │   └── extensions.json
-└── chapter-1/
+├── chapter-1/
+│   ├── README.md
+│   ├── starter-code/
+│   ├── final-code/
+│   ├── praktikum/
+│   ├── challenge/
+│   ├── mini-project/
+│   └── assets/
+└── chapter-2/
     ├── README.md
-    ├── starter-code/
-    ├── final-code/
     ├── praktikum/
+    │   ├── praktikum-1-hello-html/
+    │   ├── praktikum-2-biodata/
+    │   ├── praktikum-3-profil-mahasiswa/
+    │   └── praktikum-4-halaman-berita/
     ├── challenge/
     ├── mini-project/
+    │   ├── starter/
+    │   └── final/
     └── assets/
 ```
