@@ -8,7 +8,8 @@ Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introdu
 |---|---|---|
 | [`chapter-1/`](./chapter-1) | Introduction to Web Development | ✅ Selesai |
 | [`chapter-2/`](./chapter-2) | HTML Fundamentals | ✅ Selesai |
-| `chapter-3/` | *(menyusul)* | ⏳ Belum dibuat |
+| [`chapter-3/`](./chapter-3) | CSS Fundamentals | ✅ Selesai |
+| `chapter-4/` | *(menyusul)* | ⏳ Belum dibuat |
 
 ## Cara Menggunakan Repository Ini
 
@@ -62,3 +63,5 @@ Introduction-to-Web-Programming/
     │   └── final/
     └── assets/
 ```
+
+Struktur `chapter-3/` mengikuti pola yang sama (README, praktikum bertahap, challenge, mini-project dengan `starter/` dan `final/`, serta `assets/` untuk screenshot), ditambah file `style.css` terpisah pada setiap folder karena Chapter 3 mulai memperkenalkan CSS.
