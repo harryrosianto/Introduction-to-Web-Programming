@@ -13,8 +13,8 @@ Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introdu
 ## Cara Menggunakan Repository Ini
 
 ```bash
-git clone https://github.com/harryrosianto/Chapter-1-IWP.git
-cd Chapter-1-IWP
+git clone https://github.com/harryrosianto/Introduction-to-Web-Programming.git
+cd Introduction-to-Web-Programming
 ```
 
 Setiap folder chapter memiliki `README.md` sendiri berisi learning objectives, instruksi menjalankan project, dan assignment. Masuk ke folder chapter yang sedang dipelajari, lalu ikuti `README.md` di dalamnya.
@@ -35,7 +35,7 @@ Setiap folder chapter memiliki `README.md` sendiri berisi learning objectives, i
 ## Struktur Repository (akan bertambah setiap chapter)
 
 ```
-Chapter-1-IWP/
+Introduction-to-Web-Programming/
 ├── README.md
 ├── GIT-GUIDE.md
 ├── .gitignore
