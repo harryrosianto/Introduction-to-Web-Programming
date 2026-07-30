@@ -1,0 +1,25 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+}
+
+/* TODO: jadikan .navbar flex container, logo di kiri & menu di kanan (space-between),
+   sejajar vertikal di tengah (align-items: center) */
+.navbar {
+    background-color: #1E293B;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+/* TODO: jadikan .nav-links flex container dengan gap antar tautan */
+.nav-links {
+
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
