@@ -1,0 +1,50 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 16px 24px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main {
+    padding: 24px;
+}
+
+.kartu-skill {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+/* TODO: gaya dasar (smartphone) - .grid-skill 1 kolom */
+.grid-skill {
+
+}
+
+/* TODO: @media (min-width: 600px) - .grid-skill 2 kolom (tablet) */
+
+
+/* TODO: @media (min-width: 1024px) - .grid-skill 3 kolom,
+   body max-width: 960px, margin: 0 auto (desktop) */
