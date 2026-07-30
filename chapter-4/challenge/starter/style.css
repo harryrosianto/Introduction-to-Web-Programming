@@ -1,0 +1,49 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 16px 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* TODO: buat .hero sebagai flex container, tinggi minimal (min-height),
+   isi diposisikan tepat di tengah (justify-content + align-items) */
+.hero {
+
+}
+
+.item-portofolio {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+}
+
+/* TODO: buat .grid-portofolio sebagai grid container (3 kolom, gap) */
+.grid-portofolio {
+
+}
+
+/* TODO: buat class untuk item portofolio yang melebar 2 kolom (grid-column) */
+
+/* TODO: buat tombol kembali ke atas dengan position: fixed,
+   diposisikan bottom & right, beri z-index agar selalu di atas konten lain */
+
+/* TODO: tambahkan @media (min-width: 1280px) agar .grid-portofolio menjadi 4 kolom */
