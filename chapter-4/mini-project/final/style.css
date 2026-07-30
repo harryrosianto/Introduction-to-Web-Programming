@@ -1,0 +1,256 @@
+/* ==========================================================
+   MINI PROJECT CHAPTER 4 — FINAL CSS
+   Website Profil Pribadi - Versi Responsif
+   Flexbox + CSS Grid + Position + Media Query (Mobile First)
+   ========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+/* ========== NAVIGATION BAR (Flexbox) ========== */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 16px 24px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* ========== HERO SECTION (Flexbox) ========== */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 240px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 24px;
+}
+
+.hero h1 {
+    margin: 0 0 8px 0;
+    color: #FFFFFF;
+}
+
+/* ========== CARD BIODATA (Flexbox foto + teks pada layar lebar) ========== */
+.card {
+    max-width: 700px;
+    padding: 24px;
+    margin: 24px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.foto-profil {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #2563EB;
+    margin: 0 auto 16px auto;
+}
+
+/* ========== TABEL ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+
+th, td {
+    border: 1px solid #E2E8F0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #EFF6FF;
+}
+
+main section:not(.card) {
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+/* ========== SKILL (CSS Grid) — Mobile First: 1 kolom ========== */
+.grid-skill {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.kartu-skill {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+/* ========== PORTOFOLIO (CSS Grid) — Mobile First: 1 kolom ========== */
+.grid-portofolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.item-portofolio {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+/* ========== FORM KONTAK ========== */
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+}
+
+input[type="reset"] {
+    background-color: #E2E8F0;
+    color: #1E293B;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* ========== TOMBOL KEMBALI KE ATAS (Position: fixed) ========== */
+.tombol-atas {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+/* ==========================================================
+   MEDIA QUERY — Mobile First
+   ========================================================== */
+
+/* Tablet ke atas (>= 600px) */
+@media (min-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .card {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        text-align: left;
+    }
+
+    .foto-profil {
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .grid-skill,
+    .grid-portofolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop (>= 1024px) */
+@media (min-width: 1024px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .grid-skill,
+    .grid-portofolio {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item-unggulan {
+        grid-column: span 2;
+    }
+}
