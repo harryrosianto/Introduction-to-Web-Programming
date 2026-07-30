@@ -1,0 +1,168 @@
+/* ==========================================================
+   MINI PROJECT CHAPTER 4 — STARTER CSS
+   Lanjutan dari Chapter 3. Warna, font, dan Box Model dasar
+   sudah disediakan; fokus TODO di bawah ini murni pada LAYOUT.
+   ========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+/* ========== NAVIGATION BAR (Flexbox) ========== */
+.navbar {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    /* TODO: jadikan flex container, logo di kiri & menu di kanan
+       (justify-content: space-between), sejajar tengah (align-items: center) */
+}
+
+.logo {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/* TODO: jadikan .nav-links flex container dengan gap antar tautan */
+.nav-links {
+
+}
+
+/* ========== HERO SECTION (Flexbox) ========== */
+/* TODO: jadikan .hero flex container, min-height agar cukup tinggi,
+   justify-content & align-items agar isi tepat di tengah */
+.hero {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* ========== CARD BIODATA (Flexbox foto + teks) ========== */
+.card {
+    max-width: 600px;
+    padding: 24px;
+    margin: 24px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.foto-profil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #2563EB;
+}
+
+/* ========== TABEL ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+
+th, td {
+    border: 1px solid #E2E8F0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #EFF6FF;
+}
+
+main section:not(.card) {
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+/* ========== SKILL (CSS Grid) ========== */
+/* TODO: jadikan .grid-skill grid container, 3 kolom sama lebar, gap */
+.grid-skill {
+
+}
+
+.kartu-skill {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+/* ========== PORTOFOLIO (CSS Grid) ========== */
+/* TODO: jadikan .grid-portofolio grid container, 3 kolom, gap */
+.grid-portofolio {
+
+}
+
+.item-portofolio {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+/* TODO: buat .item-unggulan melebar 2 kolom menggunakan grid-column */
+
+/* ========== FORM KONTAK ========== */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+/* ========== TOMBOL KEMBALI KE ATAS (Position) ========== */
+/* TODO: jadikan .tombol-atas position: fixed, di pojok kanan bawah,
+   beri z-index agar selalu tampil di atas konten lain */
+.tombol-atas {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+/* ==========================================================
+   MEDIA QUERY — Mobile First
+   TODO: tambahkan breakpoint berikut:
+   - Gaya dasar di atas berlaku untuk smartphone (grid 1 kolom, navbar vertikal)
+   - @media (min-width: 600px)  -> tablet: grid-skill & grid-portofolio 2 kolom
+   - @media (min-width: 1024px) -> desktop: grid-skill & grid-portofolio 3 kolom,
+                                    body max-width 960px, margin 0 auto
+   ========================================================== */
