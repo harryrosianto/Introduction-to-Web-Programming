@@ -1,0 +1,27 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 16px;
+}
+
+/* TODO: jadikan nav sebagai flex container, rata tengah, beri gap antar tautan */
+nav {
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #2563EB;
+}
+
+/* TODO: jadikan .card sebagai flex container agar foto dan teks tersusun sejajar */
+.card {
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 16px;
+}
+
+.card img {
+    border-radius: 50%;
+}
