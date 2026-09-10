@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge - Chapter 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Skill (<span id="jumlah-skill">3</span>)</h2>
+    <div class="grid-skill" id="grid-skill">
+        <div class="kartu-skill">HTML &amp; CSS</div>
+        <div class="kartu-skill">JavaScript</div>
+        <div class="kartu-skill">Git</div>
+    </div>
+
+    <h2>Form Kontak</h2>
+    <form id="form-kontak">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Kirim">
+        <p id="pesan-error"></p>
+    </form>
+
+    <h2>Pengalaman Organisasi</h2>
+    <ul id="daftar-organisasi"></ul>
+    <form id="form-organisasi">
+        <input type="text" id="nama-organisasi" placeholder="Nama organisasi">
+        <input type="text" id="peran-organisasi" placeholder="Peran">
+        <input type="submit" value="Tambah">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
