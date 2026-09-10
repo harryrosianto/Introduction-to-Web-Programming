@@ -11,7 +11,8 @@ Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introdu
 | [`chapter-3/`](./chapter-3) | CSS Fundamentals | ✅ Selesai |
 | [`chapter-4/`](./chapter-4) | CSS Layout | ✅ Selesai |
 | [`chapter-5/`](./chapter-5) | Introduction to JavaScript | ✅ Selesai |
-| `chapter-6/` | *(menyusul — JavaScript & DOM)* | ⏳ Belum dibuat |
+| [`chapter-6/`](./chapter-6) | JavaScript and the DOM | ✅ Selesai |
+| `chapter-7/` | *(menyusul — JavaScript Modern ES6+ & Fetch API)* | ⏳ Belum dibuat |
 
 ## Cara Menggunakan Repository Ini
 
