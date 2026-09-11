@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Data Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Data Explorer</h1>
+        <p>Cari data negara dari seluruh dunia menggunakan REST Countries API.</p>
+    </header>
+
+    <main>
+        <section class="pencarian">
+            <input type="text" id="input-pencarian" placeholder="Ketik nama negara, misalnya: japan">
+            <button id="tombol-search">Search</button>
+        </section>
+
+        <section class="status">
+            <p id="status-pesan"></p>
+        </section>
+
+        <section class="hasil">
+            <div id="daftar-hasil" class="daftar-hasil"></div>
+        </section>
+
+        <section class="detail">
+            <div id="detail-negara" class="detail-negara"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data disediakan oleh <a href="https://restcountries.com" target="_blank">REST Countries API</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
