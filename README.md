@@ -4,16 +4,15 @@ Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introdu
 
 ## Daftar Chapter
 
-| Chapter | Topik | Status |
-|---|---|---|
-| [`chapter-1/`](./chapter-1) | Introduction to Web Development | ✅ Selesai |
-| [`chapter-2/`](./chapter-2) | HTML Fundamentals | ✅ Selesai |
-| [`chapter-3/`](./chapter-3) | CSS Fundamentals | ✅ Selesai |
-| [`chapter-4/`](./chapter-4) | CSS Layout | ✅ Selesai |
-| [`chapter-5/`](./chapter-5) | Introduction to JavaScript | ✅ Selesai |
-| [`chapter-6/`](./chapter-6) | JavaScript and the DOM | ✅ Selesai |
-| [`chapter-7/`](./chapter-7) | JavaScript Advanced (ES6+, Array Methods, JSON, API, Fetch) | ✅ Selesai |
-| `chapter-8/` | *(menyusul — Final Project: Vanilla Web)* | ⏳ Belum dibuat |
+| Chapter | Topik |
+|---|---|
+| [`chapter-1/`](./chapter-1) | Introduction to Web Development |
+| [`chapter-2/`](./chapter-2) | HTML Fundamentals |
+| [`chapter-3/`](./chapter-3) | CSS Fundamentals |
+| [`chapter-4/`](./chapter-4) | CSS Layout |
+| [`chapter-5/`](./chapter-5) | Introduction to JavaScript |
+| [`chapter-6/`](./chapter-6) | JavaScript and the DOM |
+| [`chapter-7/`](./chapter-7) | JavaScript Advanced (ES6+, Array Methods, JSON, API, Fetch) |
 
 ## Cara Menggunakan Repository Ini
 
