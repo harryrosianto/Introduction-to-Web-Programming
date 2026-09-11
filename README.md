@@ -36,7 +36,7 @@ Setiap folder chapter memiliki `README.md` sendiri berisi learning objectives, i
 | [Git](https://git-scm.com) | Version control |
 | Browser modern | Google Chrome / Microsoft Edge / Firefox |
 
-## Struktur Repository (akan bertambah setiap chapter)
+## Struktur Repository
 
 ```
 Introduction-to-Web-Programming/
