@@ -12,7 +12,8 @@ Repository ini adalah **pendamping praktikum** untuk modul pembelajaran *Introdu
 | [`chapter-4/`](./chapter-4) | CSS Layout | ✅ Selesai |
 | [`chapter-5/`](./chapter-5) | Introduction to JavaScript | ✅ Selesai |
 | [`chapter-6/`](./chapter-6) | JavaScript and the DOM | ✅ Selesai |
-| `chapter-7/` | *(menyusul — JavaScript Modern ES6+ & Fetch API)* | ⏳ Belum dibuat |
+| [`chapter-7/`](./chapter-7) | JavaScript Advanced (ES6+, Array Methods, JSON, API, Fetch) | ✅ Selesai |
+| `chapter-8/` | *(menyusul — Final Project: Vanilla Web)* | ⏳ Belum dibuat |
 
 ## Cara Menggunakan Repository Ini
 
