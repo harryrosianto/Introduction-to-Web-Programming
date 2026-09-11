@@ -1,0 +1,17 @@
+[
+    {
+        "judul": "Ghost Gear Buster",
+        "deskripsi": "Circular Economy Platform",
+        "unggulan": true
+    },
+    {
+        "judul": "SDG Impact Report",
+        "deskripsi": "Universitas Lambung Mangkurat",
+        "unggulan": false
+    },
+    {
+        "judul": "Modul Ajar Introduction to Web Programming",
+        "deskripsi": "Materi ajar Chapter 1-7",
+        "unggulan": false
+    }
+]
